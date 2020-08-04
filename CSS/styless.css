@@ -1,0 +1,89 @@
+/* 全体に適応 */
+h1 {
+  font-size: 18px
+}
+
+p {
+  color: #6e6e6e
+}
+
+body {
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+.link_Un {
+  text-decoration: none; /* リンクの下線を消す */
+}
+
+.Subtitle {
+  padding-left: 10px;   /* subタイトルの前に少し余白 */
+}
+
+/* ヘッダーに適応 */
+.logo {
+  padding-left: 40px;
+}
+
+header {
+  display: flex;
+  justify-content:space-between;
+}
+
+.nav_l  {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+/* キービジュアルに適応 */
+.keyvitual {
+  width: 100%;
+}
+
+/* メインコンテンツに適応 */
+.contents {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.co_left {
+  padding-right: 50px;
+  width: 100%;
+}
+
+.co_right {
+  width: 100%;
+}
+
+.co_block {
+ padding-left: 20px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+
+/* 下コンテンツに適応 */
+.co_border {
+  background-color: #e6e4e4;
+  display: flex;
+}
+
+.co_border_left {
+  padding-left: 30px;
+  padding-right: 150px;
+}
+
+
+/* フッターに適応 */
+footer {
+  background-color: #e6e4e4;
+  text-align:center;
+}
+
+.f_p {
+  margin-top: 0px;
+}
+
